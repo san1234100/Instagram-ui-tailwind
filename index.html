@@ -8,7 +8,7 @@
     <title>Instagram UI</title>
     <link rel="stylesheet" href="./public/css/main.css">
   </head>
-  <body class="bg-gray-950">
+  <body class="bg-gray-950 max-w-lg mx-auto">
     <header class="bg-gray-950 flex p-4 justify-between items-center">
       <a href="./index.html">
         <svg
@@ -37,6 +37,103 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="fill-white"><path d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812Q2.775 11.5 2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.387 2.25t-1.363 2.412q-.975 1.313-2.625 2.963T13.45 19.7zm0-2.7q2.4-2.15 3.95-3.687t2.45-2.675q.9-1.138 1.25-2.026T20 8.15q0-1.5-1-2.5t-2.5-1q-1.175 0-2.175.662T12.95 7h-1.9q-.375-1.025-1.375-1.687T7.5 4.65q-1.5 0-2.5 1t-1 2.5q0 .875.35 1.763t1.25 2.025q.9 1.137 2.45 2.675T12 18.3m0-6.825"/></svg>
     </div>
     </header>
-    <hr class="border-gray-600">
+    <hr class="border-gray-600 ">
+    <!-- stories -->
+    <section class="mt-4 pl-3 space-x-4 flex">
+      <!-- user1 -->
+      <div class="flex flex-col justify-center">
+        <img src="https://ui-avatars.com/api/?name=Vignesh&background=random&color=fff"
+        alt="Vignesh" class="rounded-full w-14 border-2 border-gray-600 p-0.5">
+        <span class="text-gray-500 text-sm pt-1">Your Story</span>
+      </div>
+       <!-- user2 -->
+      <div class="flex flex-col justify-center">
+        <img src="https://ui-avatars.com/api/?name=Shriram&background=random&color=fff"
+        alt="Shriram" class="rounded-full w-14 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+        <span class="text-gray-500 text-sm self-center pt-1">Shriram</span>
+      </div>    
+       <!-- user3 -->
+      <div class="flex flex-col justify-center">
+        <img src="https://ui-avatars.com/api/?name=Monish&background=random&color=fff"
+        alt="Monish" class="rounded-full w-14 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+        <span class="text-gray-500 text-sm self-center pt-1">Monish</span>
+      </div>
+       <!-- user4 -->
+      <div class="flex flex-col justify-center">
+        <img src="https://ui-avatars.com/api/?name=Karthik&background=random&color=fff"
+        alt="Karthik" class="rounded-full w-14 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+        <span class="text-gray-500 text-sm self-center pt-1">Karthik</span>
+      </div>
+       <!-- user5 -->
+      <div class="flex flex-col justify-center">
+        <img src="https://ui-avatars.com/api/?name=Ram&background=random&color=fff"
+        alt="Ram" class="rounded-full w-14 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+        <span class="text-gray-500 text-sm self-center pt-1">Ram</span>
+      </div>
+        <!-- user6 -->
+        <div class="flex flex-col justify-center">
+          <img src="https://ui-avatars.com/api/?name=Vigneshwar&background=random&color=fff"
+          alt="Vigneshwar" class="rounded-full w-14 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+          <span class="text-gray-500 text-sm self-center pt-1">Vignesh</span>
+        </div>
+    </section>
+    <!-- posts -->
+    <section class="px-4 py-3 mt-5 text-white">
+      <!-- post1 -->
+      <div>
+        <!-- post header -->
+        <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            <img src="https://ui-avatars.com/api/?name=vijay&background=random&color=fff"
+            alt="Vijay" class="rounded-full w-12 p-0.5 bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] to-[#962fbf]">
+                    <h4 class=" font-semibold pl-2">Vijay</h4>
+                    <svg
+                    aria-label="Verified"
+                    class="x1lliihq x1n2onr6"
+                    color="rgb(0, 149, 246)"
+                    fill="rgb(0, 149, 246)"
+                    height="12"
+                    role="img"
+                    viewBox="0 0 40 40"
+                    width="12"
+                  >
+                  <title>Verified</title>
+                    <path
+                      d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z"
+                      fill-rule="evenodd"
+                    ></path>
+                  </svg>  
+                    <span class="text-gray-500 text-3xl">&middot;</span>
+                    <span class="text-gray-500 text-sm">5 m</span>
+        </div>
+          <div>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256" class="fill-gray-500 hover:fill-white"><path d="M156 128a28 28 0 1 1-28-28a28 28 0 0 1 28 28M48 100a28 28 0 1 0 28 28a28 28 0 0 0-28-28m160 0a28 28 0 1 0 28 28a28 28 0 0 0-28-28"/></svg>      
+            </a>
+          </div>
+        </div>
+       <!-- post -->
+       <div class="py-3">
+        <img src="https://pbs.twimg.com/media/F0rIsITaIAMbgon?format=jpg&name=4096x4096" alt="leo" class="rounded">
+       </div>
+       <!-- likes -->
+       <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="fill-white"><path d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812Q2.775 11.5 2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.387 2.25t-1.363 2.412q-.975 1.313-2.625 2.963T13.45 19.7zm0-2.7q2.4-2.15 3.95-3.687t2.45-2.675q.9-1.138 1.25-2.026T20 8.15q0-1.5-1-2.5t-2.5-1q-1.175 0-2.175.662T12.95 7h-1.9q-.375-1.025-1.375-1.687T7.5 4.65q-1.5 0-2.5 1t-1 2.5q0 .875.35 1.763t1.25 2.025q.9 1.137 2.45 2.675T12 18.3m0-6.825"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="fill-white"><path fill="currentColor" d="M12 3C6.5 3 2 6.58 2 11a7.218 7.218 0 0 0 2.75 5.5c0 .6-.42 2.17-2.75 4.5c2.37-.11 4.64-1 6.47-2.5c1.14.33 2.34.5 3.53.5c5.5 0 10-3.58 10-8s-4.5-8-10-8m0 14c-4.42 0-8-2.69-8-6s3.58-6 8-6s8 2.69 8 6s-3.58 6-8 6"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M20.33 3.67a1.45 1.45 0 0 0-1.47-.35L4.23 8.2A1.44 1.44 0 0 0 4 10.85l6.07 3l3 6.09a1.44 1.44 0 0 0 1.29.79h.1a1.43 1.43 0 0 0 1.26-1l4.95-14.59a1.41 1.41 0 0 0-.34-1.47M4.85 9.58l12.77-4.26l-7.09 7.09Zm9.58 9.57l-2.84-5.68l7.09-7.09Z"/></svg>        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256"><path fill="currentColor" d="M184 32H72a16 16 0 0 0-16 16v176a8 8 0 0 0 12.24 6.78L128 193.43l59.77 37.35A8 8 0 0 0 200 224V48a16 16 0 0 0-16-16m0 177.57l-51.77-32.35a8 8 0 0 0-8.48 0L72 209.57V48h112Z"/></svg>
+        </div>
+       </div>
+       <!-- views -->
+       <div class="font-semibold my-2">7,455,397 views</div>
+       <!-- content -->
+       <div class="flex space-x-2 items-center">
+        <a href="#" class="font-medium hover:text-gray-500">Vijay</a>
+        <p>Leo update  &#128293; - Best Action Movie</p>
+       </div>
+      </div>
+    </section>
   </body>
 </html>
