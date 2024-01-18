@@ -3,16 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://san1234100.github.io/Instagram-ui-tailwind/",
+  "homepage": "https://san1234100.github.io/Instagram-ui-tailwind/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
